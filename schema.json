@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.worknoon.com/#website",
+      "url": "https://www.worknoon.com/",
+      "name": "Worknoon",
+      "description": "WordPress Development and SEO Solutions",
+      "publisher": {
+        "@id": "https://www.worknoon.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.worknoon.com/#organization",
+      "name": "Worknoon",
+      "url": "https://www.worknoon.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.worknoon.com/wp-content/uploads/logo.png"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/worknoon",
+        "https://twitter.com/worknoon",
+        "https://www.facebook.com/worknoon"
+      ],
+      "founder": {
+        "@id": "https://www.worknoon.com/#founder"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.worknoon.com/#founder",
+      "name": "Founder Name",
+      "jobTitle": "Founder & CEO",
+      "worksFor": {
+        "@id": "https://www.worknoon.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/foundername",
+        "https://twitter.com/foundername"
+      ]
+    }
+  ]
+}
